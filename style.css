@@ -1,16 +1,7 @@
-/***********************************************
-Top bar color 
-***********************************************/
-
 html {
+  background-color: pink;
 	border-top: 20px solid #364;
 }
-
-
-
-/***********************************************
-Body styling 
-***********************************************/
 
 body {
 	max-width: 600px;
@@ -18,27 +9,11 @@ body {
 	padding: 20px 20px;
 	font-size: 1.3em;
 	line-height: 1.6em;
-  font-family: 'Open Sans', sans-serif;
+  font-family:'Indie Flower', cursive;
 	color: #390;
 	font-weight: 300;
 }
 
-
-
-/***********************************************
-Image styling 
-***********************************************/
-
-img {
-	border-radius: 400%;
-	max-width: 467px;
-}
-
-
-
-/***********************************************
-Headline styling 
-***********************************************/
 h1 {
 	font-size: 1.5em;
 	line-height: .5em;
@@ -62,5 +37,12 @@ h3 {
 h4 {
 	margin-top: 60px;
 	font-weight: 500;
-  color: #900;
+  color: #890;
 }
+
+.round-image {
+	border-radius: 100%;
+	max-width: 467px;
+  border-style:dashed;
+}
+
